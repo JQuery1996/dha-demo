@@ -219,15 +219,15 @@ function Header() {
                                 {sidebarContent.map((content, index) => (
                                     <li key={index}>
                                         <Link
-                                            to="/home"
+                                            to={content.path}
                                             className="nav-content-bttn open-font"
                                         >
                                             <i
                                                 className={
-                                                    SIDEBARICONS[content]
+                                                    SIDEBARICONS[content.label]
                                                 }
                                             ></i>
-                                            <span>{content}</span>
+                                            <span>{content.label}</span>
                                         </Link>
                                     </li>
                                 ))}

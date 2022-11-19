@@ -284,6 +284,22 @@ export default function Router() {
                         </AuthGuard>
                     ),
                 },
+                {
+                    path: "points",
+                    element: (
+                        <AuthGuard>
+                            <Points />
+                        </AuthGuard>
+                    ),
+                },
+                {
+                    path: "voting",
+                    element: (
+                        <AuthGuard>
+                            <Voting />
+                        </AuthGuard>
+                    ),
+                },
             ],
         },
     ]);
@@ -355,3 +371,7 @@ const Hotelsingle = Loadable(lazy("../pages/Hotelsingle"));
 const Notification = Loadable(lazy(() => import("../pages/Notification")));
 
 const Settings = Loadable(lazy(() => import("../pages/Settings")));
+
+const Points = Loadable(lazy(() => import("../pages/Points")));
+
+const Voting = Loadable(lazy(() => import("../pages/Voting")));

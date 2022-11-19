@@ -114,4 +114,10 @@ export const PATH_APP = {
     DefaultEvent: {
         root: path(ROOTS_APP, "/defaultjob"),
     },
+    Points: {
+        root: path(ROOTS_APP, "/points"),
+    },
+    Voting: {
+        root: path(ROOTS_APP, "/voting"),
+    },
 };

@@ -1,1 +1,10 @@
-export { default as GoldenIcon } from "./goldIllusration";
+export { default as GoldenCoinIcon } from "./GoldenCoinIllustation";
+export { default as AmazonIcon } from "./AmazonIllustration";
+export { default as SheinIcon } from "./SheinIllustration";
+export { default as TableIcon } from "./TableIllustration";
+export { default as MilestoneIcon } from "./MilestoneIllustration";
+export { default as AddIcon } from "./addIllustration";
+export { default as ChallengeIcon } from "./ChallengeIllustration";
+export { default as FastGraduateIcon } from "./FastGraduateIllustration";
+export { default as OnFireIcon } from "./OnFireIllustration";
+export { default as TopStudentIcon } from "./TopStudentIllustration";

@@ -1,8 +1,8 @@
 import { memo } from "react";
 
-function GoldIllusration({ ...other }) {
+function GoldenCoinIllustration({ ...other }) {
     return (
-        <div>
+        <div {...other}>
             <svg
                 version="1.1"
                 id="Capa_1"
@@ -11,6 +11,8 @@ function GoldIllusration({ ...other }) {
                 y="0px"
                 viewBox="0 0 480 480"
                 style={{ enableBackground: "new 0 0 480 480" }}
+                width="100%"
+                height="100%"
             >
                 <g>
                     <g>
@@ -432,4 +434,4 @@ function GoldIllusration({ ...other }) {
     );
 }
 
-export default memo(GoldIllusration);
+export default memo(GoldenCoinIllustration);
